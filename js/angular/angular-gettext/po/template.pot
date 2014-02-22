@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.html
+msgid "Gettext test"
+msgstr ""
+
+#: index.html
+msgid "Input text"
+msgstr ""
+
+#: index.html
+msgid "No translation"
+msgstr ""
+
+#: index.html
+msgid "Welcome {{name}}!"
+msgstr ""
+
+#: index.html
+msgid "one task"
+msgid_plural "{{count}} tasks"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: index.html
+msgid "Gettext test"
+msgstr "тест"
+
+#: index.html
+msgid "Input text"
+msgstr "Введите текст"
+
+#: index.html
+msgid "No translation"
+msgstr ""
+
+#: index.html
+msgid "Welcome {{name}}!"
+msgstr "Привет {{name}}!"
+
+#: index.html
+msgid "one task"
+msgid_plural "{{count}} tasks"
+msgstr[0] "одна задача"

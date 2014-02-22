@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-gettext/dist/angular-gettext.js"></script>
+	<script src="translations.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="TestCtrl">
+		<select ng-model="lang" ng-change="changeLang()" ng-options="lang for lang in langs">
+		</select>
+
+		<p translate>Welcome {{name}}!</p>
+		<p translate>Gettext test</p>
+		<p translate>No translation</p>
+		<input type="text" placeholder="{{'Input text' | translate}}" />
+		
+		<p translate translate-n="count" translate-plural="{{count}} tasks">one task</p>
+	</div>
+</body>
+</html>
